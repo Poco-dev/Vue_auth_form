@@ -1,0 +1,37 @@
+{
+  "name": "shop",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "@primevue/forms": "^4.2.2",
+    "axios": "^1.7.7",
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.7",
+    "emailjs": "^4.0.3",
+    "emailjs-com": "^3.2.0",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.12.1",
+    "nodemailer": "^6.9.16",
+    "nodemon": "^3.1.9",
+    "pinia": "^2.2.6",
+    "serve": "^14.2.4",
+    "vue": "^3.4.29",
+    "vue-media": "^1.1.1",
+    "vue-router": "^4.4.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "vite": "^6.2.1"
+  }
+}
